@@ -1,0 +1,45 @@
+body{
+height: 100vh;
+background-image:url("./clouds.jpg") ;
+background-repeat:no-repeat;
+background-size: cover;
+
+}
+.container {
+    display: block;
+    width: fit-content;
+margin:300px auto;
+}
+.tytle {
+font-size: 57px;
+}
+.weather {
+border-radius: 20px;
+width: 400px;
+height: 30px;
+border:3px  solid  black;
+display: block;
+margin: 0 auto;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+.button {
+display: block;
+margin: 15px auto;
+width: 150px;
+height: 50px;
+border-radius: 10px;
+border: 3px solid black;
+font-weight: bold;
+font-size: 19px;
+}
+
+
+
+.button:hover{
+border: 3px solid white;
+
+
+
+}
